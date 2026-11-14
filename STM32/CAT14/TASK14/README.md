@@ -27,7 +27,7 @@
 ![Connections Table](connections.png)
 
 ### Node-RED Flow
-![Node-RED Flow](node-red.png)
+![Node-RED Flow](node-red.PNG)
 
 ## Core Logic / Pseudocode / Code Base
 
