@@ -23,7 +23,7 @@
 ### Hardware Schematic
 ![Circuit Diagram](circuit.png)
 
-### Wiring Interconnects Table
+### Connection Table
 ![Connections Table](connections.png)
 
 ## Core Logic / Pseudocode / Code Base
