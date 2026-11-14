@@ -24,7 +24,7 @@
 ![Circuit Diagram](circuit.png)
 
 ### Internal Board Connections
-*both `B1` and `LD2` are internally routed on the NUCLEO-F401RE PCB.)*
+*(both `B1` and `LD2` are internally routed on the NUCLEO-F401RE PCB.)*
 
 | MCU Pin | Internal Component | Configuration | Active State |
 | :--- | :--- | :--- | :--- |
