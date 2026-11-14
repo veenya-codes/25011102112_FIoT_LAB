@@ -1,16 +1,13 @@
 [← Back to STM32 Index](../../README.md) | [← Back to Root Repository](../../../README.md)
 
-## EXP
-Continuous Lab Evaluation-8 (`CAT8` / `TASK8A`)
+# CAT-8 TASK-8A
 
-## TASK NO
-**Task 8A — GPIO Input/Output**
-
-## DATE
-24/09/2026
-
-## NAME OF EXP
-STM32 GPIO Bring-Up and Switch-Controlled LED
+| Field | Details |
+| :--- | :--- |
+| **EXP** | Continuous Lab Evaluation-8 (`CAT8` / `TASK8A`) |
+| **TASK NO** | **Task 8A — GPIO Input/Output** |
+| **DATE** | 18/09/2026 (Week 7) |
+| **NAME OF EXP** | STM32 GPIO Bring-Up and Switch-Controlled LED |
 
 ## HARDWARE SETUP / PLATFORM
 - **Development Board:** STM32 Blue Pill (`STM32F103C8T6`) (ARM Cortex-M3, 72 MHz SYSCLK)
@@ -19,7 +16,7 @@ STM32 GPIO Bring-Up and Switch-Controlled LED
 - **Peripherals:** Push-button switch and onboard LED
 - **Pin Mapping:**
   - `PA9` — Push-button input
-  - `PC13` — Onboard LED output 
+  - `PC13` — Onboard LED output
 
 ## Circuit Diagram
 
