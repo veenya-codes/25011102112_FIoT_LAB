@@ -31,12 +31,12 @@
 ![Connections Table](connections.png)
 
 ### Node-RED Data & Advisory Flow
-![Node-RED Flow](node-red.png)
+![Node-RED Flow](node-red.jpeg)
 
 ### Telemetry & Advisory Dashboard
-![Telemetry and Advisory Dashboard](dashboard1.png)
-![Telemetry and Advisory Dashboard](dashboard2.png)
-![Telemetry and Advisory Dashboard](dashboard3.png)
+![Telemetry and Advisory Dashboard](dashboard1.jpeg)
+![Telemetry and Advisory Dashboard](dashboard2.jpeg)
+![Telemetry and Advisory Dashboard](dashboard3.jpeg)
 
 ---
 
