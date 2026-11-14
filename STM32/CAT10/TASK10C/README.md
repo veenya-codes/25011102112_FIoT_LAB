@@ -35,7 +35,7 @@
 - After a `2000 ms` startup delay, the STM32 sequentially transmits six AT commands over `USART2` to configure Wi-Fi Station mode, connect to the local Access Point, query the assigned IP address, and initialize a multi-connection TCP server:
   1. `AT\r\n` — Verifies modem readiness.
   2. `AT+CWMODE=1\r\n` — Configures Wi-Fi Station (`STA`) mode.
-  3. `AT+CWJAP="SNUC","snu12345"\r\n` — Joins the target Wi-Fi network.
+  3. `AT+CWJAP=<SSID>,<PASSWORD>\r\n` — Joins the target Wi-Fi network.
   4. `AT+CIFSR\r\n` — Queries the assigned local IP address.
   5. `AT+CIPMUX=1\r\n` — Enables multiple TCP connections.
   6. `AT+CIPSERVER=1,80\r\n` — Starts a TCP server on port `80`.
