@@ -6,7 +6,7 @@
 | :--- | :--- |
 | **EXP** | Continuous Lab Evaluation-8 (`CAT8` / `TASK8B`) |
 | **TASK NO** | **Task 8B — Event-Based Control** |
-| **DATE** | 24/09/2026 (Week 7) |
+| **DATE** | 24/09/2026  |
 | **NAME OF EXP** | STM32 GPIO Bring-Up and Switch-Controlled LED |
 
 ## HARDWARE SETUP / PLATFORM
