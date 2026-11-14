@@ -19,7 +19,6 @@
   - `PA3` (`USART2_RX`) — Connected to Wemos D1 Mini `TX`
   - `PA9` (`USART1_TX`) — Connected to USB-to-TTL `RX` (PC debug output)
   - `PA10` (`USART1_RX`) — Connected to USB-to-TTL `TX`
-  - `3V3` / `5V` & `GND` — Power and common ground rails
 
 ## Circuit Diagram
 
