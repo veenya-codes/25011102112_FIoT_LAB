@@ -71,4 +71,4 @@ This repository contains bare-metal Embedded C and HAL-based microcontroller lab
 
 ## Documentation & Submission Standards
 - Every experiment folder includes its own `README.md` containing the experiment metadata (`EXP`, `TASK NO`, `DATE`, `NAME OF EXP`), hardware setup and pin mappings, schematic (`circuit.png`), wiring interconnects (`connections.png`), working principle, pseudocode, code base breakdown, and inference.
-- All `8051` firmware is written in register-level Embedded C (`<reg51.h>` / `<reg52.h>`) without third-party abstraction libraries.
+- All `8051` firmware is written in register-level Embedded C (`<reg51.h>`) without third-party abstraction libraries.
