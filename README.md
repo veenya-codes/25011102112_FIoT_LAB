@@ -2,7 +2,7 @@
 
 **Course:** 25CS2741 — Fundamentals of Internet of Things + Lab  
 **Student:** Veenya M (`25011102112`)  
-**Program:** B.Tech CSE (IoT)
+**Program:** B.Tech CSE (IoT) 
 **Institution:** Shiv Nadar University, Chennai  
 
 This repository contains bare-metal Embedded C and HAL-based microcontroller laboratory experiments, peripheral interfacing implementations, and an end-to-end IoT mini-project developed across the **8051 (`AT89S52`)** and **STM32 (`STM32F103C8T6`, `STM32F401RE`, `STM32F410RB`)** platforms.
