@@ -2,8 +2,8 @@
 
 **Course:** 25CS2741 — Fundamentals of Internet of Things + Lab  
 **Student:** Veenya M (`25011102112`)  
-**Program:** B.Tech CSE (IoT) 
-**Institution:** Shiv Nadar University, Chennai  
+**Program:** B.Tech CSE (IoT)  
+**Institution:** Shiv Nadar University, Chennai
 
 This repository contains bare-metal Embedded C and HAL-based microcontroller laboratory experiments, peripheral interfacing implementations, and an end-to-end IoT mini-project developed across the **8051 (`AT89S52`)** and **STM32 (`STM32F103C8T6`, `STM32F401RE`, `STM32F410RB`)** platforms.
 
@@ -70,5 +70,6 @@ This repository contains bare-metal Embedded C and HAL-based microcontroller lab
 ---
 
 ## Documentation & Submission Standards
+
 - Every experiment folder includes its own `README.md` containing the experiment metadata (`EXP`, `TASK NO`, `DATE`, `NAME OF EXP`), hardware setup and pin mappings, schematic (`circuit.png`), wiring interconnects (`connections.png`), working principle, pseudocode, code base breakdown, and inference.
 - All `8051` firmware is written in register-level Embedded C (`<reg51.h>`) without third-party abstraction libraries.
