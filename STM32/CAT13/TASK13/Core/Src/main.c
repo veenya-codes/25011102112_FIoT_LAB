@@ -68,7 +68,7 @@ UART_HandleTypeDef huart2;
 
 	uint8_t cmd1[] = "AT\r\n";
 	uint8_t cmd2[] = "AT+CWMODE=1\r\n";
-	uint8_t cmd3[] = "AT+CWJAP=\"SNUC\",\"snu12345\"\r\n";
+	uint8_t cmd3[] = "AT+CWJAP=\"<SSID>\",\"<PASSWORD>\"\r\n";
 	uint8_t cmd4[] = "AT+CIFSR\r\n";
 	uint8_t cmd5[] = "AT+CIPMUX=1\r\n";
 	uint8_t cmd6[] = "AT+CIPSERVER=1,80\r\n";
