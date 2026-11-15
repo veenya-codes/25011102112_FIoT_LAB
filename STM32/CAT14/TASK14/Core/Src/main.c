@@ -96,7 +96,7 @@ int main(void)
 	ESP8266_Init(StationMode, huart1);
 	HAL_Delay(1000);
 	// 2. Connect to your local Wi-Fi network (Replace with your Router SSID and Password)
-	ESP8266_wifiConnect("SNUC", "snu12345");
+	ESP8266_wifiConnect(<SSID>,<PASSWORD>);
 	HAL_Delay(2000);
 	// 3. Connect to your MQTT Broker (Replace with your Broker's IP Address)
 	// 1883 is the standard unencrypted MQTT port
