@@ -146,7 +146,7 @@ int main(void)
 	// 1. Initialize the Wi-Fi module on USART2
 	ESP8266_Init(StationMode, huart2);
 	// 2. Connect to your local Wi-Fi network (Replace with your Router SSID and Password)
-	ESP8266_wifiConnect("SNUC", "snu12345");
+	ESP8266_wifiConnect("<SSID>", "<PASSWORD>");
 	// 3. Connect to your MQTT Broker (Replace with your Broker's IP Address)
 	// 1883 is the standard unencrypted MQTT port
 	ESP8266_portConnect("TCP", "broker.emqx.io", "1883");
@@ -168,7 +168,7 @@ int main(void)
 
 		 if (rslt == BME280_OK) {
 		 // Bosch formulas process outputs as integers or floats depending on compilation configuration
-		 temperature = comp_data.temperature; // °C
+		 temperature = comp_data.temperature; // Â°C
 		 pressure = comp_data.pressure / 100.0f; // Convert Pa to hPa
 		 humidity = comp_data.humidity; // % Relative Humidity
 		snprintf(json_data, sizeof(json_data),
